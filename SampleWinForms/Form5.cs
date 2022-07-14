@@ -28,7 +28,6 @@ namespace SampleWinForms
             try
             {
                 Course cs = new Course();
-
                 cs.Id = Convert.ToInt32(txtCourseId.Text);
                 cs.Name = txtCourseName.Text;
                 cs.fee = Convert.ToDouble(txtCourseFee.Text);
